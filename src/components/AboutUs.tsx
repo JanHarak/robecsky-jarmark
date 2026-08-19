@@ -3,8 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { Link } from 'react-router-dom';
 import { TESTIMONIALS } from '../data';
-import { Star, MessageSquare, Quote } from 'lucide-react';
+import { Star, Quote, ArrowRight } from 'lucide-react';
 
 export default function AboutUs() {
   return (
@@ -61,6 +62,51 @@ export default function AboutUs() {
             </div>
           </div>
 
+        </div>
+
+        {/* === EXPLORE MORE: farm story + hens === */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-20">
+          {/* Farm story */}
+          <Link
+            to="/o-hospodarstvi"
+            className="group relative overflow-hidden rounded-[32px] border border-natural-border bg-gradient-to-br from-natural-sage/15 via-natural-bg-light to-natural-cream p-8 sm:p-10 hover:shadow-md transition-shadow flex flex-col"
+          >
+            <span className="absolute -top-6 -right-3 text-[7rem] opacity-10 select-none pointer-events-none">🌳</span>
+            <span className="relative text-xs uppercase tracking-widest text-natural-sage font-mono font-bold">
+              Příběh dvora
+            </span>
+            <h3 className="relative font-serif text-2xl font-bold text-natural-deep mt-2">
+              Jak hospodaříme v souladu s přírodou
+            </h3>
+            <p className="relative text-natural-text-muted text-sm leading-relaxed mt-3 flex-grow">
+              Přečtěte si, jak pečujeme o staré sady, proč nepoužíváme syntetickou chemii a jak vzniká poctivé jídlo z našeho rodinného dvora.
+            </p>
+            <span className="relative inline-flex items-center gap-1.5 text-natural-sage font-bold text-sm mt-5 group-hover:gap-2.5 transition-all">
+              Více o našem hospodářství
+              <ArrowRight className="w-4 h-4" />
+            </span>
+          </Link>
+
+          {/* Hens */}
+          <Link
+            to="/nase-slepice"
+            className="group relative overflow-hidden rounded-[32px] border border-natural-border bg-white p-8 sm:p-10 hover:shadow-md transition-shadow flex flex-col"
+          >
+            <span className="absolute -top-6 -right-3 text-[7rem] opacity-10 select-none pointer-events-none">🐔</span>
+            <span className="relative text-xs uppercase tracking-widest text-natural-sage font-mono font-bold">
+              Volný chov slepic
+            </span>
+            <h3 className="relative font-serif text-2xl font-bold text-natural-deep mt-2">
+              Poznejte naše slepičky a jejich louku
+            </h3>
+            <p className="relative text-natural-text-muted text-sm leading-relaxed mt-3 flex-grow">
+              Pestrá směs tradičních plemen, zelený jetelový výběh, poctivé zrno a vejce se sytě žlutým žloutkem.
+            </p>
+            <span className="relative inline-flex items-center gap-1.5 text-natural-sage font-bold text-sm mt-5 group-hover:gap-2.5 transition-all">
+              Číst o našich slepicích
+              <ArrowRight className="w-4 h-4" />
+            </span>
+          </Link>
         </div>
 
         {/* === CUSTOMER TESTIMONIALS SECTION === */}

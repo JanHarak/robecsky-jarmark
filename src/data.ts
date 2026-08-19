@@ -292,10 +292,10 @@ export const FAQS: FAQItem[] = [
 ];
 
 export const CONTACT_DATA: ContactInfo = {
-  phone: '+420 774 123 456',
-  email: 'info@robecskyjarmark.cz',
-  address: 'Robeč 42, 411 15 Úštěk, Česká republika',
-  pickupHours: 'Po - Pá: 16:00 - 19:00, So - Ne: 9:00 - 12:00 (vždy po předchozí telefonické domluvě)',
+  phone: '+420 736 630 327',
+  email: 'jan.harak@gmail.com',
+  address: 'Robeč 12, 411 08 Úštěk-Štětí, Česká republika',
+  pickupHours: 'Čtvrtek & Pátek: 14:00 – 17:00\nSobota: 09:00 – 12:00',
   instagramUrl: 'https://instagram.com/robecsky_jarmark',
   facebookUrl: 'https://facebook.com/robecskyjarmark'
 };

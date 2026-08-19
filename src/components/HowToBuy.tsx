@@ -90,7 +90,7 @@ export default function HowToBuy() {
         </div>
 
         {/* Warning Callout Box */}
-        <div className="mt-12 bg-natural-bg-light border border-natural-border/80 p-5 rounded-[32px] max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left shadow-2xs">
+        <div className="mt-12 bg-natural-bg-light border border-natural-border/80 p-5 rounded-[32px] max-w-8xl mx-auto flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left shadow-2xs">
           <div className="text-3xl">🧺</div>
           <div>
             <p className="text-natural-deep text-sm sm:text-base font-bold leading-snug">

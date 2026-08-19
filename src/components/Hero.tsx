@@ -12,7 +12,7 @@ interface HeroProps {
 
 export default function Hero({ onExploreScroll, onHowToBuyScroll }: HeroProps) {
   return (
-    <header id="uvod" className="relative pt-24 sm:pt-28 pb-16 sm:pb-24 overflow-hidden bg-gradient-to-b from-natural-cream via-natural-bg-light/50 to-natural-cream/30">
+    <header id="uvod" className="relative pt-10 sm:pt-16 pb-16 sm:pb-24 overflow-hidden bg-gradient-to-b from-natural-cream via-natural-bg-light/50 to-natural-cream/30">
       {/* Decorative rural accents/patterns in the background */}
       <div className="absolute top-10 left-10 w-64 h-64 rounded-full bg-natural-sage/10 blur-3xl -z-10" />
       <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-natural-border/30 blur-3xl -z-10" />
