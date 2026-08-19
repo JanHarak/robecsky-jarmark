@@ -1,0 +1,6 @@
+{
+  "name": "Robečský jarmark",
+  "description": "Objevte Honzíkova vejce a další poctivé domácí výrobky z Robečského jarmarku. Aktuální nabídka lokálních potravin a řemeslných produktů.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

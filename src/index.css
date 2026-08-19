@@ -1,0 +1,68 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-natural-cream: #FDFCF8;
+  --color-natural-dark: #4A3728;
+  --color-natural-deep: #3E2723;
+  --color-natural-sage: #8DA47E;
+  --color-natural-sage-dark: #7A8F6C;
+  --color-natural-border: #E8E4D9;
+  --color-natural-border-light: #F0EDE4;
+  --color-natural-bg-light: #F9F7F2;
+  --color-natural-bg-footer: #F5F2EA;
+  --color-natural-brown-mid: #5D4037;
+  --color-natural-text-muted: #6D5D51;
+}
+
+/* Custom fade-in animations for smooth micro-interactions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Accessibility: clear outline on keyboard focus */
+*:focus-visible {
+  outline: 3px solid var(--color-amber-600);
+  outline-offset: 2px;
+}
+
+/* Smooth HTML scroll-behavior */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
