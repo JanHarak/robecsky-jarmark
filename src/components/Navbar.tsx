@@ -113,12 +113,12 @@ export default function Navbar({ cartItemsCount, onCartToggle }: NavbarProps) {
             </button>
 
             {/* Order Now CTA */}
-            {/* <button
+            <button
               onClick={() => handleAnchor('kontakt')}
               className="bg-natural-sage hover:bg-natural-sage-dark text-white font-medium px-5 py-2.5 rounded-full shadow-sm hover:shadow-md transition-all duration-150 border border-natural-sage-dark/10 text-sm cursor-pointer active:scale-95"
             >
               Nezávazně objednat
-            </button> */}
+            </button>
           </div>
 
           {/* Mobile Right Container (Cart + Menu Button) */}

@@ -14,8 +14,12 @@
   --color-natural-cream: #FDFCF8;
   --color-natural-dark: #4A3728;
   --color-natural-deep: #3E2723;
-  --color-natural-sage: #8DA47E;
-  --color-natural-sage-dark: #7A8F6C;
+ /*  Primary accent — warm brown (dříve zelená sage) */
+  /* --color-natural-sage: #8DA47E;
+  --color-natural-sage-dark: #7A8F6C;*/
+   --color-natural-sage: #9E7248;
+  --color-natural-sage-dark: #7C5836; 
+
   --color-natural-border: #E8E4D9;
   --color-natural-border-light: #F0EDE4;
   --color-natural-bg-light: #F9F7F2;
